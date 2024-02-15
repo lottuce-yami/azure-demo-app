@@ -24,4 +24,9 @@
         </PackageReference>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\AzureDemoAppAzureFunction\AzureDemoAppAzureFunction.csproj" />
+      <ProjectReference Include="..\AzureDemoApp\AzureDemoApp.csproj" />
+    </ItemGroup>
+
 </Project>
