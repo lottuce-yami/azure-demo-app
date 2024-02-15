@@ -1,9 +1,6 @@
 ﻿using Azure.Storage.Blobs;
-using Azure.Storage.Blobs.Models;
-using FluentAssertions;
 using Microsoft.AspNetCore.Components.Forms;
 using Microsoft.Extensions.Configuration;
-using Moq;
 using AzureDemoApp.Models;
 
 namespace AzureDemoAppTests.AzureApp.BlobStorageService;

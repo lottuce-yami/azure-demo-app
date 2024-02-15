@@ -1,6 +1,4 @@
-﻿using FluentAssertions;
-
-namespace AzureDemoAppTests.AzureApp.BlobStorageService;
+﻿namespace AzureDemoAppTests.AzureApp.BlobStorageService;
 
 public class SanitizeFileName
 {
