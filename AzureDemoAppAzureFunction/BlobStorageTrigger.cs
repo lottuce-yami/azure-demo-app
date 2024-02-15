@@ -32,7 +32,7 @@ namespace AzureDemoAppAzureFunction
             _emailService.SendMail(
                 recipient: recipient,
                 subject: "Blob Storage Notification",
-                message: $"Your file has been successfully uploaded. Link: {uri}"
+                message: $"Your file <b>{name}</b> has been successfully uploaded.<br>Link (valid for 1 hour): {uri}"
             );
             
             return Task.CompletedTask;
